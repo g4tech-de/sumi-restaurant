@@ -14,25 +14,11 @@
 
 <div th:replace="fragments/navbar.html :: navbar"></div>
 
-<body data-spy="scroll" data-target="#navbar" data-offset="120" >
-    <div id="header">
-        <div class="bg-overlay"></div>
-        <!--<div class="center text-center">
-            <div class="banner">
-                <img id="title" src="icons/svg/title.svg" width="80%"/>
-            </div>
-            <div class="subtitle"><h4>AWESOME RESTAURANT THEME</h4></div>
-        </div>-->
-        <div class="bottom text-center">
-            <a href="#story" id="scrollDownArrow" >
-                <div class="fa fa-chevron-down" onclick="window.location.hash = 'story'">
-                </div>
-            </a>
-        </div>
-    </div>
+<body>
+    <div th:replace="fragments/header.html :: header"></div>
     <!-- /#header -->
 
-    <div id="story" class="light-wrapper">
+    <div id="story" name="story" class="light-wrapper">
         <section class="ss-style-top"></section>
         <div class="container inner">
             <h2 class="section-title text-center">Our Story</h2>
@@ -445,7 +431,7 @@
 
 
 
-    <div id="chefs" class="parallax pricing">
+    <div id="chefs" class="parallax parallax3 pricing">
         <div class="container inner">
 
             <h2 class="section-title text-center">Our Chefs</h2>
@@ -486,32 +472,6 @@
     </div><!-- /#chefs -->
 
 
-    <footer id="footer" class="dark-wrapper">
-        <section class="ss-style-top"></section>
-        <div class="container inner">
-            <div class="row">
-                <div class="col-sm-6">
-                    &copy; Copyright MeatKing 2014
-                    <br/>Theme By <a class="themeBy" href="http://www.Themewagon.com">ThemeWagon</a>
-                </div>
-                <div class="col-sm-6">
-                    <div class="social-bar">
-                        <a href="#" class="fa fa-instagram tooltipped" title=""></a>
-                        <a href="#" class="fa fa-youtube-square tooltipped" title=""></a>
-                        <a href="#" class="fa fa-facebook-square tooltipped" title=""></a>
-                        <a href="#" class="fa fa-pinterest-square tooltipped" title=""></a>
-                        <a href="#" class="fa fa-google-plus-square tooltipped" title=""></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /.container -->
-    </footer>
-
-    <script src="js/jquery-2.1.3.min.js"></script>
-    <script src="js/jquery.actual.min.js"></script>
-    <script src="js/jquery.scrollTo.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
+    <footer th:replace="fragments/footer.html :: footer"></footer>
 </body>
 </html>

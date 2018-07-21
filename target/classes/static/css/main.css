@@ -239,6 +239,9 @@ section::before,section::after {
 .parallax.parallax2 {
     background-image:url(../img/sashimi-parallax.jpg);
 }
+.parallax.parallax3 {
+    background-image:url(../img/dish-parallax.jpg);
+}
 .bm10 {
     margin-bottom:10px !important;
 }

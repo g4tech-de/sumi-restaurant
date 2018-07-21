@@ -34,15 +34,60 @@
 
                     <li><a href="#facts">Facts</a></li>
                     <li><a href="#food-menu">Food Menu</a></li>
-                    <li><a href="#special-offser">Special Offers</a></li>
-
-                    <!--fix for scroll spy active menu element-->
-                    <li style="display:none;"><a href="#header"></a></li>
+                    <li><a data-toggle="modal" data-target="#rateModal">Bewerten Sie uns</a></li>
 
                 </ul>
             </div><!--/.navbar-collapse -->
         </div><!-- container -->
     </div><!-- menu -->
+
+    <!-- RateModal -->
+    <div class="modal fade" id="rateModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Bewerten Sie uns</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label class="lang" key="papovfl_quoteModalTitle">Title:</label>
+                            <input class="form-control" type="text" name="addQuote_title" id="addQuote_title" placeholder="Title" readonly="true"/>
+                        </div>
+                        <div class="form-group">
+                            <label class="lang" key="papovfl_quoteModalAuthor">Author:</label>
+                            <input class="form-control" type="text" name="addQuote_author" id="addQuote_author" placeholder="Author" readonly="true"/>
+                        </div>
+                        <div class="form-group">
+                            <label class="lang" key="papovfl_quoteModalTime">Time:</label>
+                            <input class="form-control" type="text" name="addQuote_time" id="addQuote_time" placeholder="Time"/>
+                        </div>
+                        <div class="form-group">
+                            <label class="lang" key="papovfl_quoteModalPublisher">Publisher:</label>
+                            <input class="form-control" type="text" name="addQuote_publisher" id="addQuote_publisher" placeholder="Publisher"/>
+                        </div>
+                        <div class="form-group">
+                            <label class="lang" key="papovfl_quoteModalQuoteSet">QuoteSets:</label>
+                            <select name="quoteSetList" id="addQuote_quoteSetList" class="form-control">
+                            </select>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn" data-dismiss="modal" onclick="addQuote()">Ok</button>
+                    <button type="button" class="btn btn-danger lang" key="papovfl_quoteModalCloseButton" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>

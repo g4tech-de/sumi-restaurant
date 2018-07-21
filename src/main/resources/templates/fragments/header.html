@@ -4,8 +4,12 @@
       xmlns="http://www.w3.org/1999/xhtml"
       xmlns:th="http://www.thymeleaf.org">
 <head th:fragment="headerfiles">
+    <!--icon-->
+    <link rel="icon" href="img/favicon.png">
+
     <!-- meta -->
     <meta charset="utf-8">
+    <meta name="robots" content="noindex">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -22,6 +26,20 @@
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
 <body>
-
+<div id="header" th:fragment="header">
+    <div class="bg-overlay"></div>
+    <!--<div class="center text-center">
+        <div class="banner">
+            <img id="title" src="icons/svg/title.svg" width="80%"/>
+        </div>
+        <div class="subtitle"><h4>AWESOME RESTAURANT THEME</h4></div>
+    </div>-->
+    <div class="bottom text-center">
+        <a href="#story" id="scrollDownArrow">
+            <div class="fa fa-chevron-circle-down" >
+            </div>
+        </a>
+    </div>
+</div>
 </body>
 </html>
