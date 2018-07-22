@@ -225,9 +225,9 @@ section::before,section::after {
 ========================================================================== */
 .parallax {
     background:url(../img/sushi-parallax.jpg) fixed no-repeat center center;
-    -webkit-background-size:/*@@prefixmycss->No equivalent*/;
+    -webkit-background-size:cover;
     -moz-background-size:cover;
-    -o-background-size:/*@@prefixmycss->No equivalent*/;
+    -o-background-size:cover;
     background-size:cover;
     position:relative;
     color:#FFF;
