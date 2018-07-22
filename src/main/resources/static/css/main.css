@@ -102,7 +102,7 @@ section::before,section::after {
     color:white;
 }
 #header .bottom {
-    color:white;
+    color:#ed0121;
 }
 #header .center .slogan {
     font-size:26px;
@@ -128,11 +128,11 @@ section::before,section::after {
     text-align:center;
     width:100%;
     position:absolute;
-    bottom:30px;
+    bottom:-520px;
 }
 #header .bottom a {
     font-size:36px;
-    color:whitesmoke;
+    color:#ed0121;
     position:relative;
     top:-5px;
 }

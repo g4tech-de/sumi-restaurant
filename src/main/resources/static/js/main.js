@@ -34,6 +34,7 @@ $(document).ready(function() {
 	function setHomeBannerHeight() {
 		var windowHeight = jQuery(window).height();
 		jQuery('#header').height(windowHeight);
+		console.log("Done");
 	}
 	///////////////////////////////
 	// Center Home Slideshow Text
@@ -77,6 +78,22 @@ $(document).ready(function() {
 		});
 	}
 	animateScrollDownArrow();
+    var $scrollUpArrow = $('#scrollUpArrow');
+    var animateScrollUpArrow = function() {
+        $scrollUpArrow.animate( {
+                top: 5,
+            }
+            , 400, "linear", function() {
+                $scrollUpArrow.animate( {
+                        top: -5,
+                    }
+                    , 400, "linear", function() {
+                        animateScrollUpArrow();
+                    }
+                );
+            });
+    }
+    animateScrollUpArrow();
 	//Set Down Arrow Button
 	jQuery('#scrollDownArrow').click(function(e) {
 		e.preventDefault();
