@@ -77,14 +77,15 @@ section::before,section::after {
 ========================================================================== */
 #header {
     background-image:url(../img/restaurant-parallax.jpg);
-    -webkit-background-size:/*@@prefixmycss->No equivalent*/;
+    -webkit-background-size:cover;
     -moz-background-size:cover;
-    -o-background-size:/*@@prefixmycss->No equivalent*/;
+    -o-background-size:cover;
     background-size:cover;
     background-position:center center;
     background-attachment:fixed;
     background-repeat:no-repeat;
     position:relative;
+    min-height: 100%;
 }
 .bg-overlay {
     position:absolute;
@@ -230,8 +231,8 @@ section::before,section::after {
     -o-background-size:cover;
     background-size:cover;
     position:relative;
-    height: 100%;
     color:#FFF;
+    min-height: 100%
 }
 .parallax .inner {
     padding-top:130px;
@@ -455,6 +456,26 @@ section::before,section::after {
     background: white;
 }
 
+.top {
+    color:#ed0121;
+}
+
+.top {
+    text-align:center;
+    width:100%;
+    position:absolute;
+    bottom:30px;
+}
+.top a {
+    font-size:36px;
+    color:#ed0121;
+    position:relative;
+    top:-5px;
+}
+.navbar-nav>li:nth-child(3) {
+    margin-right: 110px;
+}
+
 /* ==========================================================================
     11. Responsive styles 
 ========================================================================== */
@@ -487,7 +508,7 @@ section::before,section::after {
         width:110px;
         left:50%;
         margin-left:-55px;
-        background:black;
+        background: rgba(33,45,57,0.5);
         -webkit-border-radius:0 0 100% 100%;
         -moz-border-radius:0 0 100% 100%;
         border-radius:0 0 100% 100%;
