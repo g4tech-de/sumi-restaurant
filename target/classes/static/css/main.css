@@ -431,7 +431,7 @@ section::before,section::after {
 }
 .social-bar {
     width:100%;
-    text-align:right;
+    text-align:left;
 }
 .social-bar a {
     display:inline-block;
