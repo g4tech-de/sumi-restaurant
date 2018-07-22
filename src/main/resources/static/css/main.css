@@ -230,6 +230,7 @@ section::before,section::after {
     -o-background-size:cover;
     background-size:cover;
     position:relative;
+    min-height: 100%;
     color:#FFF;
 }
 .parallax .inner {
