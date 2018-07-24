@@ -28,13 +28,13 @@
 
 
 $(document).ready(function() {
+
 	///////////////////////////////
 	// Set Home Slideshow Height
 	///////////////////////////////
 	function setHomeBannerHeight() {
 		var windowHeight = jQuery(window).height();
 		jQuery('#header').height(windowHeight);
-		console.log("Done");
 	}
 	///////////////////////////////
 	// Center Home Slideshow Text

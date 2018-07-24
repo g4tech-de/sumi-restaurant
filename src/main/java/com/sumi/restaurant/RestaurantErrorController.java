@@ -24,7 +24,7 @@ public class RestaurantErrorController implements ErrorController {
                 return "error-500";
             }
         }
-        return "error";
+        return "error-404";
     }
 
     @RequestMapping("/error-403")

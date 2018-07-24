@@ -6,6 +6,10 @@
 </head>
 <body>
 <div th:fragment="navbar">
+    <script>
+        /*Remove hash*/
+        history.replaceState({}, document.title, window.location.href.substr(0, window.location.href.indexOf('#')));
+    </script>
     <!--[if lt IE 7]>
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -28,13 +32,13 @@
 
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#story">Über uns</a></li>
+                    <li><a href="#food-menu">Getränke</a></li>
                     <li><a href="#reservation">Speisekarte</a></li>
-                    <li><a href="#chefs">Our Chefs</a></li>
 
 
-                    <li><a href="#facts">Facts</a></li>
-                    <li><a href="#food-menu">Food Menu</a></li>
-                    <li><a data-toggle="modal" data-target="#rateModal" style="cursor: pointer">Bewerten Sie uns</a></li>
+                    <li><a href="#chefs">Geschäftsführer</a></li>
+                    <li><a href="#footer">Kontakt</a></li>
+                    <li><a data-toggle="modal" data-target="#rateModal" style="cursor: pointer">Feedback</a></li>
 
                     <!--fix for scroll spy active menu element-->
                     <li style="display:none;"><a href="#header"></a></li>
@@ -52,7 +56,7 @@
                 <!-- Modal Header -->
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Bewerten Sie uns</h4>
+                    <h4 class="modal-title">Feedback</h4>
                 </div>
 
                 <!-- Modal body -->
@@ -61,23 +65,24 @@
                     <div class='rating-stars text-center'>
                         <ul id='stars'>
                             <li class='star' title='Poor' data-value='1'>
-                                <i class='fa fa-star fa-fw'></i>
+                                <i class='fa fa-thumbs-o-up'></i>
                             </li>
                             <li class='star' title='Fair' data-value='2'>
-                                <i class='fa fa-star fa-fw'></i>
+                                <i class='fa fa-thumbs-o-up'></i>
                             </li>
                             <li class='star' title='Good' data-value='3'>
-                                <i class='fa fa-star fa-fw'></i>
+                                <i class='fa fa-thumbs-o-up'></i>
                             </li>
                             <li class='star' title='Excellent' data-value='4'>
-                                <i class='fa fa-star fa-fw'></i>
+                                <i class='fa fa-thumbs-o-up'></i>
                             </li>
                             <li class='star' title='WOW!!!' data-value='5'>
-                                <i class='fa fa-star fa-fw'></i>
+                                <i class='fa fa-thumbs-o-up'></i>
                             </li>
                         </ul>
                     </div>
                     <form>
+                        <input style="display: none" type="text" name="rate_star" id="rate_star">
                         <div class="form-group">
                             <label class="lang">Name:</label>
                             <input class="form-control" type="text" name="rate_name" id="rate_name" placeholder="Name"/>
@@ -87,7 +92,7 @@
                             <input class="form-control" type="text" name="rate_title" id="rate_title" placeholder="Title"/>
                         </div>
                         <div class="form-group">
-                            <label class="lang">Beschreibung:</label>
+                            <label class="lang">Feedback:</label>
                             <td><textarea class="form-control" rows="10" id="rate_message"></textarea></td>
                         </div>
                     </form>

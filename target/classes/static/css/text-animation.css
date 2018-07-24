@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "scarllet";
+    src: url("../fonts/scarllet.otf") format("truetype");
+}
+
+.scarllet {
+    font-family: "scarllet";
+    font-size: 10vw;
+    display: inline-block;
+    padding:0px 18px;
+    color:#f47142;
+    text-shadow: 1px 1px white;
+}
+
+.ml5 {
+    position: relative;
+    font-weight: 300;
+    font-size: 10vw;
+    color: #402d2d;
+}
+
+.ml5 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding:0px 18px;
+    line-height: 1em;
+    font-family: "scarllet";
+    color:#f47142;
+    text-shadow: 1px 1px white;
+}
+
+.ml5 .line {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 3px;
+    width: 100%;
+    background-color: #f47142;
+    transform-origin: 0.5 0;
+}
+
+.ml5 .ampersand {
+    font-family: Baskerville, "EB Garamond", serif;
+    font-style: italic;
+    font-weight: 400;
+    width: 1em;
+    margin-right: -0.1em;
+    margin-left: -0.1em;
+}
+
+.ml5 .letters {
+    display: inline-block;
+    opacity: 0;
+}
