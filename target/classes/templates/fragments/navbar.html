@@ -26,24 +26,23 @@
                 <a class="navbar-brand" href="#header"><img src="img/Sumi/Sumi-logo.png" alt="logo"></a>
             </div><!-- navbar-header -->
             <div id="navbar" class="navbar-collapse collapse">
+
                 <div class="hidden-xs" id="logo"><a href="#header">
                     <img src="img/Sumi/Sumi-logo.png" alt="logo">
                 </a></div>
 
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#story">Über uns</a></li>
-                    <li><a href="#food-menu">Getränke</a></li>
-                    <li><a href="#reservation">Speisekarte</a></li>
-
+                    <li><a href="#facts">Getränke</a></li>
+                    <li><a href="#special-offser">Speisekarte</a></li>
 
                     <li><a href="#chefs">Geschäftsführer</a></li>
                     <li><a href="#footer">Kontakt</a></li>
                     <li><a data-toggle="modal" data-target="#rateModal" style="cursor: pointer">Feedback</a></li>
-
                     <!--fix for scroll spy active menu element-->
                     <li style="display:none;"><a href="#header"></a></li>
-
                 </ul>
+
             </div><!--/.navbar-collapse -->
         </div><!-- container -->
     </div><!-- menu -->
@@ -65,23 +64,23 @@
                     <div class='rating-stars text-center'>
                         <ul id='stars'>
                             <li class='star' title='Poor' data-value='1'>
-                                <i class='fa fa-thumbs-o-up'></i>
+                                <i class='fa fa-star'></i>
                             </li>
                             <li class='star' title='Fair' data-value='2'>
-                                <i class='fa fa-thumbs-o-up'></i>
+                                <i class='fa fa-star'></i>
                             </li>
                             <li class='star' title='Good' data-value='3'>
-                                <i class='fa fa-thumbs-o-up'></i>
+                                <i class='fa fa-star'></i>
                             </li>
                             <li class='star' title='Excellent' data-value='4'>
-                                <i class='fa fa-thumbs-o-up'></i>
+                                <i class='fa fa-star'></i>
                             </li>
                             <li class='star' title='WOW!!!' data-value='5'>
-                                <i class='fa fa-thumbs-o-up'></i>
+                                <i class='fa fa-star'></i>
                             </li>
                         </ul>
                     </div>
-                    <form>
+                    <form action="/send/mail" method="post">
                         <input style="display: none" type="text" name="rate_star" id="rate_star">
                         <div class="form-group">
                             <label class="lang">Name:</label>
@@ -89,7 +88,7 @@
                         </div>
                         <div class="form-group">
                             <label class="lang">Titel:</label>
-                            <input class="form-control" type="text" name="rate_title" id="rate_title" placeholder="Title"/>
+                            <input class="form-control" type="text" name="rate_title" id="rate_title" placeholder="Titel"/>
                         </div>
                         <div class="form-group">
                             <label class="lang">Feedback:</label>
@@ -100,10 +99,29 @@
 
                 <!-- Modal footer -->
                 <div class="modal-footer">
-                    <button type="button" class="btn" data-dismiss="modal" onclick="">Senden</button>
-                    <button type="button" class="btn btn-danger lang" key="papovfl_quoteModalCloseButton" data-dismiss="modal">Schließen</button>
+                    <button type="submit" class="btn" onclick="senMail()">Senden</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Schließen</button>
                 </div>
 
+            </div>
+        </div>
+    </div>
+    <!-- SuccessModal -->
+    <div class="modal fade" id="successModal">
+        <div class="modal-dialog modal-sm" style="margin-top: 35vh">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <h3 id="result" style="margin-top: 0px; margin-bottom: 0px">
+                        Feedback wurde gesendet
+                    </h3>
+                    <img src="img/sumi/success.gif" width="70%">
+                    <h3 style="margin-top: 0px">
+                        Wir bedanken uns für Ihre Bewertung!
+                    </h3>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Fertig</button>
+                </div>
             </div>
         </div>
     </div>

@@ -35,7 +35,7 @@ $(document).ready(function(){
 
         // JUST RESPONSE (Not needed)
         var ratingValue = parseInt($('#stars li.selected').last().data('value'), 10);
-        $('#rate_star').val('');
+        $('#rate_star').val(onStar);
     });
 
     // Add smooth scrolling to all links
@@ -74,3 +74,34 @@ $(".modal").on("hidden.bs.modal", function(){
     $('#rate_title').val('');
     $('#rate_message').val('');
 });
+
+function senMail() {
+    if ($('#rate_message').val().trim() === '') {
+        $('#rate_message').css('border', 'solid red 1px');
+        return;
+    }
+    var sentObject = {};
+    sentObject["rate_star"] = $('#rate_star').val();
+    sentObject["rate_name"] = $('#rate_name').val();
+    sentObject["rate_title"] = $('#rate_title').val();
+    sentObject["rate_message"] = $('#rate_message').val();
+    $('#rateModal').modal('toggle');
+    $('#successModal').modal('toggle');
+    $.ajax(
+        {
+            async: true,
+            url: "send/mail",
+            type: "POST",
+            data: JSON.stringify(sentObject),
+            contentType: "application/json",
+            success: function (data, status, xhr)
+            {
+
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown)
+            {
+
+            }
+        }
+    )
+}

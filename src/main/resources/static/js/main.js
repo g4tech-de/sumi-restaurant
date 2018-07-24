@@ -1,4 +1,4 @@
-(function($,sr) {
+/*(function($,sr) {
 	// debouncing function from John Hann
 	// http://unscriptable.com/index.php/2009/03/20/debouncing-javascript-methods/
 	var debounce = function (func, threshold, execAsap) {
@@ -24,7 +24,7 @@
 	}
 	;
 }
-)(jQuery,'smartresize');
+)(jQuery,'smartresize');*/
 
 
 $(document).ready(function() {
@@ -48,10 +48,10 @@ $(document).ready(function() {
 	setHomeBannerHeight();
 	centerHomeBannerText();
 	//Resize events
-	jQuery(window).smartresize(function() {
+	/*jQuery(window).smartresize(function() {
 		setHomeBannerHeight();
 		centerHomeBannerText();
-	});
+	});*/
 	
 	function scroll() {
 		if ($(window).scrollTop() == 0 ) {

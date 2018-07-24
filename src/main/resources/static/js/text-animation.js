@@ -1,4 +1,4 @@
-anime.timeline({loop: true})
+anime.timeline({loop: false})
     .add({
         targets: '.ml5 .line',
         opacity: [0.5,1],
@@ -34,10 +34,4 @@ anime.timeline({loop: true})
     easing: "easeOutExpo",
     duration: 600,
     offset: '-=600'
-}).add({
-    targets: '.ml5',
-    opacity: 0,
-    duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
 });
