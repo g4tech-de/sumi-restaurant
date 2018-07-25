@@ -32,11 +32,17 @@ public class EmailController {
 
         String emailTo = "duydark94@gmail.com";
         String star = object.getString("rate_star");
-        if (star.isEmpty()) {
+        if (star.trim().isEmpty()) {
             star = "0";
         }
         String name = object.getString("rate_name");
+        if (name.trim().isEmpty()) {
+            name = "anonymous";
+        }
         String title = object.getString("rate_title");
+        if (title.trim().isEmpty()) {
+            title = "Feedback";
+        }
         String message = object.getString("rate_message");
 
         StringBuilder builder = new StringBuilder();
@@ -44,12 +50,13 @@ public class EmailController {
         builder.append("Rating: " +star + "\n");
         builder.append("Feedback:\n" + message + "\n\n");
 
+        String finalTitle = title;
         String finalMessage = builder.toString();
         javaMailSender.send(mimeMessage -> {
             MimeMessageHelper messageHelper = new MimeMessageHelper(
                     mimeMessage, true, "UTF-8");
             messageHelper.setTo(emailTo);
-            messageHelper.setSubject(title);
+            messageHelper.setSubject(finalTitle);
             messageHelper.setText(finalMessage,false);
         });
         return "Feedback wurde gesendet";

@@ -2,37 +2,199 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c91089a6-3566-4423-91dc-a12f75d6f22f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sumi/restaurant/EmailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/parallax1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/parallax2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/parallax3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/sumi/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/aaargh.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/sumi/border-bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/sumi/border.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sumi/restaurant/EmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sumi/restaurant/EmailController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/dish-parallax.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/sashimi-parallax.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/sushi-parallax.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/text-animation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/text-animation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/scarllet.otf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/scarllet.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/antique12.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/apple35.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/apple53.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/apple54.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/apple55.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/barbecue1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/big24.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/birthday10.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/birthday2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/bowl8.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/bread4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/breakfast.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/burger1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/carrot1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/cheese2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/chef15.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/chicken7.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/chilis.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/coffee26.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/cola.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/cooker1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/cooking15.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/cooking3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/covered16.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/crown1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/crown28.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/crown3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/crown5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/crown7.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/elegant9.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/floral84.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/floral94.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/food20.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/food23.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/food7.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/fork.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/glass16.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/guacamole.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/hot.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/hot33.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/hot56.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/ice38.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/ice51.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/ice53.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/king3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/king7.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/kitchen14.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/man288.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/man82.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/margarita.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/menu21.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/mug4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/oriental5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/party1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/pie25.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/pizza4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/plate7.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/queen2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/restaurant1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/restaurant23.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/restaurant4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/royal108.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/royal113.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/royal118.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/royal80.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/royalty8.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/salty.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/sandwich.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/snacks.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/spirals.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/three116.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/title.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/tomato3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/waiter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/watermelon3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/icons/svg/wine2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/parallax1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/parallax1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/restaurant-parallax.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/restaurant-parallax.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/global.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/text-animation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/text-animation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/navbar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sumi/restaurant/EmailController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sumi/restaurant/EmailController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sumi/restaurant/RestaurantApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sumi/restaurant/RestaurantApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sumi/restaurant/RestaurantErrorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sumi/restaurant/RestaurantErrorController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/dish-parallax.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/sashimi-parallax.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/sushi-parallax.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/text-animation.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/text-animation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/fonts/scarllet.otf" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/fonts/scarllet.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/antique12.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/apple35.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/apple53.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/apple54.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/apple55.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/barbecue1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/big24.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/birthday10.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/birthday2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/bowl8.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/bread4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/breakfast.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/burger1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/carrot1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/cheese2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/chef15.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/chicken7.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/chilis.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/coffee26.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/cola.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/cooker1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/cooking15.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/cooking3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/covered16.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/crown1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/crown28.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/crown3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/crown5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/crown7.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/elegant9.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/floral84.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/floral94.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/food20.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/food23.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/food7.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/fork.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/glass16.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/guacamole.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/hot.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/hot33.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/hot56.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/ice38.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/ice51.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/ice53.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/king3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/king7.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/kitchen14.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/man288.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/man82.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/margarita.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/menu21.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/mug4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/oriental5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/party1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/pie25.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/pizza4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/plate7.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/queen2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/restaurant1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/restaurant23.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/restaurant4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/royal108.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/royal113.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/royal118.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/royal80.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/royalty8.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/salty.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/sandwich.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/snacks.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/spirals.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/three116.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/title.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/tomato3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/waiter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/watermelon3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/icons/svg/wine2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/parallax1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/img/parallax1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/img/restaurant-parallax.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/img/restaurant-parallax.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/js/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/global.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/js/text-animation.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/text-animation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/navbar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/restaurant-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/restaurant-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/restaurant-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/restaurant-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,11 +209,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="global.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/global.js">
+      <file leaf-file-name="global.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/global.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="80" column="15" selection-start-line="80" selection-start-column="15" selection-end-line="80" selection-end-column="15" />
+            <state relative-caret-position="-1432">
+              <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -59,8 +221,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="554" column="5" selection-start-line="554" selection-start-column="5" selection-end-line="554" selection-end-column="5" />
+            <state relative-caret-position="164">
+              <caret line="182" column="22" lean-forward="true" selection-start-line="182" selection-start-column="22" selection-end-line="182" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -68,8 +230,8 @@
       <file leaf-file-name="EmailController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sumi/restaurant/EmailController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+            <state relative-caret-position="157">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,12 +242,11 @@
       <file leaf-file-name="navbar.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/navbar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+            <state relative-caret-position="200">
+              <caret line="36" column="66" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -94,41 +255,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/main.js">
+      <file leaf-file-name="footer.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+            <state relative-caret-position="306">
+              <caret line="57" column="148" selection-start-line="57" selection-start-column="148" selection-end-line="57" selection-end-column="148" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#2;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#2;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#3;n#div#2;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+            <state relative-caret-position="595">
+              <caret line="35" column="100" lean-forward="true" selection-start-line="35" selection-start-column="100" selection-end-line="35" selection-end-column="100" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="105" column="21" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="268" column="41" selection-start-line="268" selection-start-column="41" selection-end-line="268" selection-end-column="41" />
+            <state relative-caret-position="234">
+              <caret line="47" column="38" lean-forward="true" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -136,8 +301,8 @@
       <file leaf-file-name="text-animation.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/text-animation.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state relative-caret-position="748">
+              <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -145,8 +310,17 @@
       <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+            <state relative-caret-position="268">
+              <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="47" column="41" lean-forward="true" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -168,6 +342,8 @@
       <find>night</find>
       <find>fa</find>
       <find>navbar</find>
+      <find>#545656</find>
+      <find>inner</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -189,17 +365,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sumi/restaurant/ErrorController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sumi/restaurant/RestaurantErrorController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/icons/svg/title.svg" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/text-animation.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/css/text-animation.css" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/global.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/sumi/restaurant/EmailController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/text-animation.js" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/main.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/text-animation.css" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/navbar.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/main.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" />
       </list>
     </option>
   </component>
@@ -306,7 +483,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="icons" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
@@ -424,9 +601,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Sumi\restaurant\src\main\resources\static\fonts" />
+      <recent name="E:\Sumi\restaurant\src\main\resources\static\img" />
       <recent name="E:\Sumi\restaurant\src\main\resources\static\img\sumi" />
       <recent name="E:\Sumi\restaurant\src\main\resources\static\icons" />
-      <recent name="E:\Sumi\restaurant\src\main\resources\static\img" />
       <recent name="E:\Sumi\restaurant\src\main\resources\templates" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -520,12 +698,12 @@
       <updated>1532131118792</updated>
       <workItem from="1532131120233" duration="9792000" />
       <workItem from="1532167313461" duration="2881000" />
-      <workItem from="1532444830904" duration="14052000" />
+      <workItem from="1532444830904" duration="32877000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27037000" />
+    <option name="totallyTimeSpent" value="45862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -533,7 +711,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.19083156" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -543,12 +721,12 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32900432" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32900432" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43398267" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -573,37 +751,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sumi/restaurant/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -731,7 +878,6 @@
           <folding>
             <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -827,102 +973,103 @@
         <state relative-caret-position="-30" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2635">
-          <caret line="155" column="1" selection-start-line="155" selection-start-column="1" selection-end-line="155" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="76" column="82" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="82" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#2;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#2;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#3;n#div#2;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/img/restaurant-parallax.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/img/dish/dish1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/img/dish/dish2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/img/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/img/sumi/Sumi-logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/img/sumi/chef.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/img/parallax2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/text-animation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="36" column="2" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/text-animation.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/img/parallax3.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/global.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="80" column="15" selection-start-line="80" selection-start-column="15" selection-end-line="80" selection-end-column="15" />
+        <state relative-caret-position="-140">
+          <caret line="88" column="58" lean-forward="true" selection-start-line="88" selection-start-column="58" selection-end-line="88" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/text-animation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="47" column="38" lean-forward="true" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/img/restaurant-parallax.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="100" lean-forward="true" selection-start-line="35" selection-start-column="100" selection-end-line="35" selection-end-column="100" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+        <state relative-caret-position="268">
+          <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="47" column="41" lean-forward="true" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sumi/restaurant/EmailController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        <state relative-caret-position="157">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/text-animation.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="748">
+          <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+        <state relative-caret-position="200">
+          <caret line="36" column="66" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
           <folding>
             <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -932,22 +1079,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="554" column="5" selection-start-line="554" selection-start-column="5" selection-end-line="554" selection-end-column="5" />
+        <state relative-caret-position="164">
+          <caret line="182" column="22" lean-forward="true" selection-start-line="182" selection-start-column="22" selection-end-line="182" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="268" column="41" selection-start-line="268" selection-start-column="41" selection-end-line="268" selection-end-column="41" />
+        <state relative-caret-position="-1432">
+          <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="105" column="21" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
+        <state relative-caret-position="306">
+          <caret line="57" column="148" selection-start-line="57" selection-start-column="148" selection-end-line="57" selection-end-column="148" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#2;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#2;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#3;n#div#2;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -967,5 +1130,10 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="clean heroku:deploy -DskipTests" />
+    <option value="clean heroku:deploy-war -DskipTests" />
   </component>
 </project>

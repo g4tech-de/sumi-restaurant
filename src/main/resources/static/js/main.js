@@ -1,4 +1,4 @@
-/*(function($,sr) {
+(function($,sr) {
 	// debouncing function from John Hann
 	// http://unscriptable.com/index.php/2009/03/20/debouncing-javascript-methods/
 	var debounce = function (func, threshold, execAsap) {
@@ -24,7 +24,7 @@
 	}
 	;
 }
-)(jQuery,'smartresize');*/
+)(jQuery,'smartresize');
 
 
 $(document).ready(function() {
@@ -33,7 +33,7 @@ $(document).ready(function() {
 	// Set Home Slideshow Height
 	///////////////////////////////
 	function setHomeBannerHeight() {
-		var windowHeight = jQuery(window).height();
+		var windowHeight = Math.min(document.documentElement.clientHeight, window.innerHeight || 0);
 		jQuery('#header').height(windowHeight);
 	}
 	///////////////////////////////
@@ -48,20 +48,20 @@ $(document).ready(function() {
 	setHomeBannerHeight();
 	centerHomeBannerText();
 	//Resize events
-	/*jQuery(window).smartresize(function() {
+	jQuery(window).smartresize(function() {
 		setHomeBannerHeight();
 		centerHomeBannerText();
-	});*/
+	});
 	
-	function scroll() {
+	/*function scroll() {
 		if ($(window).scrollTop() == 0 ) {
-			//$('.nav > li').removeClass('active');
+			$('.nav > li').removeClass('active');
 			console.log($(window).scrollTop());
 		} else {
 			
 		}
 	}
-	document.onscroll = scroll;
+	document.onscroll = scroll;*/
 	var $scrollDownArrow = $('#scrollDownArrow');
 	var animateScrollDownArrow = function() {
 		$scrollDownArrow.animate( {

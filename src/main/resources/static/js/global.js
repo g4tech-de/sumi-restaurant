@@ -73,6 +73,8 @@ $(".modal").on("hidden.bs.modal", function(){
     $('#rate_name').val('');
     $('#rate_title').val('');
     $('#rate_message').val('');
+    $('#rate_message').css('border', '');
+    $("#rate_message").attr('class', 'form-control');
 });
 
 function senMail() {
@@ -104,4 +106,14 @@ function senMail() {
             }
         }
     )
+}
+
+function checkMessage() {
+    if ($('#rate_message').val().trim() === '') {
+        $('#rate_message').css('border', 'solid red 1px');
+        return;
+    } else {
+        $('#rate_message').css('border', '');
+        $("#rate_message").attr('class', 'form-control');
+    }
 }

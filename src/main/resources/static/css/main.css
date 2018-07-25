@@ -1,4 +1,5 @@
-/*  
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+/*
 Theme Name: MeatKing
 Version:    1.14.20
 Author:     ThemeWagon
@@ -23,7 +24,7 @@ TABLE OF CONTENTS
     01. General and Typography 
 ========================================================================== */
 body {
-    font-family:'Kreon',serif;
+    font-family: 'Cabin', sans-serif;
     -webkit-font-smoothing:antialiased;
     -webkit-text-size-adjust:100%;
 }
@@ -45,30 +46,30 @@ section::before,section::after {
 
 /* Separators Styles */
 .ss-style-top::before {
-    /*left:0;
+    left:0;
     width:100%;
-    height:30px;
-    -webkit-background-size:25px 100%;
-    -moz-background-size:25px 100%;
-    -o-background-size:25px 100%;
-    background-size:25px 100%;
+    height:8px;
+    -webkit-background-size:20px 100%;
+    -moz-background-size:20px 100%;
+    -o-background-size:20px 100%;
+    background-size:20px 100%;
     top:0;
-    background-image:linear-gradient(315deg,#FFF 50%,transparent 50%),linear-gradient(45deg,#FFF 50%,transparent 50%);
-    margin-top:-30px;
-    z-index:100;*/
+    background-image:url("../img/sumi/border.png");
+    margin-top:-8px;
+    z-index:100;
 }
 .ss-style-bottom::before {
-    /*left:0;
+    left:0;
     width:100%;
-    height:30px;
-    -webkit-background-size:25px 100%;
-    -moz-background-size:25px 100%;
-    -o-background-size:25px 100%;
-    background-size:25px 100%;
+    height:8px;
+    -webkit-background-size:20px 100%;
+    -moz-background-size:20px 100%;
+    -o-background-size:20px 100%;
+    background-size:20px 100%;
     top:0;
-    background-image:linear-gradient(583deg,#FFF 50%,transparent 50%),linear-gradient(136deg,#FFF 50%,transparent 50%);
+    background-image:url("../img/sumi/border-bottom.png");
     margin-top:0px;
-    z-index: 100;*/
+    z-index: 100;
 }
 
 
@@ -145,12 +146,11 @@ section::before,section::after {
     03. Navigation 
 ========================================================================== */
 #menu {
-    background:rgba(33,45,57,0.8);
+    background:black;
     margin-bottom:0;
 }
 .navbar-brand h2 {
     margin-top:0;
-    font-weight:bold;
     color:white;
 }
 .navbar-brand {
@@ -163,10 +163,11 @@ section::before,section::after {
     -o-transition:all 0.4s;
     transition:all 0.4s;
     color:white;
-    font-weight:bold;
+    font-size: 1.75rem;
+    font-weight: 100;
 }
 .navbar-inverse .navbar-nav>li>a:hover,.navbar-inverse .navbar-nav>.active>a {
-    background:#f47142;
+    background:#363838;
     color:white;
     text-shadow:none;
 }
@@ -188,8 +189,7 @@ section::before,section::after {
     margin-bottom:15px;
     font-weight:600;
     font-family: "scarllet";
-    color:#f47142;
-    text-shadow: 1px 1px white;
+    color:white;
     font-weight: 300;
 }
 .main.lead {
@@ -207,7 +207,7 @@ section::before,section::after {
 .lead:after {
     position:absolute;
     content:' ';
-    background:#f47142;
+    background:black;
     width:80px;
     height:3px;
     bottom:-22px;
@@ -279,7 +279,7 @@ section::before,section::after {
 }
 .menu-titles h1 {
     text-shadow:none;
-    color:#f47142;
+    color:black;
     text-align:center;
     margin:0 auto;
     padding-top:30px;
@@ -315,7 +315,7 @@ section::before,section::after {
     line-height:90px;
     text-align:center;
     font-weight:700;
-    color:#fff;
+    color:black;
     -webkit-border-radius:100px;
     -moz-border-radius:100px;
     border-radius:100px;
@@ -342,7 +342,7 @@ section::before,section::after {
     float:left;
 }
 .pricing-item-details a,.pricing-item-details p,.pricing .lead {
-    color:#f47142;
+    color:black;
     font-weight:bold;
 }
 .pricing .pricing-item .pricing-item-details {
@@ -424,13 +424,13 @@ section::before,section::after {
     10. Footer 
 ========================================================================== */
 .dark-wrapper {
-    background:#f47142;
+    background:#363838;
     color:white;
     font-size:20px;
     font-weight:bold;
 }
 /*.dark-wrapper .ss-style-top::before {
-    background-image:linear-gradient(315deg,#f47142 50%,transparent 50%),linear-gradient(45deg,#f47142 50%,transparent 50%);
+    background-image:linear-gradient(315deg,#363838 50%,transparent 50%),linear-gradient(45deg,#363838 50%,transparent 50%);
 }*/
 .social-bar {
     width:100%;
@@ -451,16 +451,16 @@ section::before,section::after {
 }
 .social-bar a:hover {
     opacity:0.5;
-    filter: alpha(opacity=50);
+    color: #32c8de;
 }
 
 .themeBy{
-    color: #f47142;
+    color: black;
     background: white;
 }
 
 .top {
-    color:#f47142;
+    color:white;
 }
 
 .top {
@@ -471,7 +471,7 @@ section::before,section::after {
 }
 .top a {
     font-size:36px;
-    color:#f47142;
+    color:white;
     position:relative;
     top:-5px;
 }
@@ -519,7 +519,7 @@ section::before,section::after {
         width:110px;
         left:50%;
         margin-left:-55px;
-        background: rgba(33,45,57,0.5);
+        background: black;
         -webkit-border-radius:0 0 100% 100%;
         -moz-border-radius:0 0 100% 100%;
         border-radius:0 0 100% 100%;

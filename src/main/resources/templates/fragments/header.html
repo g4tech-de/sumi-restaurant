@@ -2,7 +2,8 @@
 <!DOCTYPE html>
 <html lang="de"
       xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:th="http://www.thymeleaf.org">
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:fb="http://ogp.me/ns/fb#">
 <head th:fragment="headerfiles">
     <!--icon-->
     <link rel="icon" href="img/favicon.png">
@@ -13,6 +14,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport"
           content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta property="og:image" content="img/parallax3"/>
+    <meta property="og:description"
+          content="Wunderschöne Terasse, leckere Cocktails, ausgewählte Weine, hervorragendes Sushi und feine panasiatische Küche"/>
+    <meta property="og:site_name" content="Sumi Restaurant" />
+    <meta property="og:locale" content="de_DE" />
 
     <!-- css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -31,16 +37,18 @@
 <body>
 <div id="header" th:fragment="header">
     <div class="bg-overlay"></div>
-    <div id="restaurant-name" class="center text-center">
-        <h1 class="ml5">
+    <div class="center text-center">
+        <h1 class="ml6">
           <span class="text-wrapper">
-            <span class="line line1"></span>
-            <span class="letters letters-left">Panasia Kitchen</span>
-            <span class="letters ampersand">-</span>
-            <span class="letters letters-right">Sushi Bar</span>
-            <span class="line line2"></span>
+            <span class="letters">Willkommen</span>
           </span>
         </h1>
+        <h1 class="ml15">
+            <span class="word">Panasia Kitchen</span>
+            <span class="word">&</span>
+            <span class="word">Sushi Bar</span>
+        </h1>
+
     </div>
     <div class="bottom text-center">
         <a href="#story" id="scrollDownArrow">
