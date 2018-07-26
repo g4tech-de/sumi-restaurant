@@ -54,7 +54,7 @@ section::before,section::after {
     -o-background-size:20px 100%;
     background-size:20px 100%;
     top:0;
-    background-image:url("../img/sumi/border.png");
+    background-image:url("../img/sumi/border-top.png");
     margin-top:-8px;
     z-index:100;
 }
@@ -128,13 +128,22 @@ section::before,section::after {
     text-align:center;
     width:100%;
     position:absolute;
-    bottom:30px;
+    height: 60px;
+    bottom:0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px 100%;
+    background-image: url("../img/sumi/border-top.png");
 }
 #header .bottom a {
     font-size:36px;
-    color:whitesmoke;
+    color:black;
     position:relative;
     top:-5px;
+}
+
+#header .bottom a:hover {
+    color: #363838;
 }
 
 .navbar-nav>li:nth-child(3) {
@@ -163,8 +172,6 @@ section::before,section::after {
     -o-transition:all 0.4s;
     transition:all 0.4s;
     color:white;
-    font-size: 1.75rem;
-    font-weight: 100;
 }
 .navbar-inverse .navbar-nav>li>a:hover,.navbar-inverse .navbar-nav>.active>a {
     background:#363838;
@@ -201,13 +208,13 @@ section::before,section::after {
     font-weight:normal;
     text-transform:uppercase;
     margin-bottom:15px;
-    color:#2e2e2e;
+    color:black;
     position:relative;
 }
 .lead:after {
     position:absolute;
     content:' ';
-    background:black;
+    background:white;
     width:80px;
     height:3px;
     bottom:-22px;
@@ -467,16 +474,21 @@ section::before,section::after {
     text-align:center;
     width:100%;
     position:absolute;
-    bottom:30px;
+    height: 60px;
+    bottom:0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px 100%;
+    background-image: url("../img/sumi/border-top.png");
 }
 .top a {
     font-size:36px;
-    color:white;
+    color:black;
     position:relative;
     top:-5px;
 }
 .top a:hover {
-    color: white;
+    color: #363838;
 }
 .navbar-nav>li:nth-child(3) {
     margin-right: 110px;

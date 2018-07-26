@@ -33,7 +33,7 @@ $(document).ready(function() {
 	// Set Home Slideshow Height
 	///////////////////////////////
 	function setHomeBannerHeight() {
-		var windowHeight = Math.min(document.documentElement.clientHeight, window.innerHeight || 0);
+		var windowHeight = $(window).height();
 		jQuery('#header').height(windowHeight);
 	}
 	///////////////////////////////
@@ -53,15 +53,36 @@ $(document).ready(function() {
 		centerHomeBannerText();
 	});
 	
-	/*function scroll() {
-		if ($(window).scrollTop() == 0 ) {
-			$('.nav > li').removeClass('active');
-			console.log($(window).scrollTop());
+	function scroll() {
+		if (($('.m11').position().top - $(window).scrollTop()) == window.innerHeight*0.8) {
+		    console.log($('#facts').position().top + " " + $(window).scrollTop() + " " + window.innerHeight);
+            anime.timeline({loop: false})
+                .add({
+                    targets: '.ml1 .letter',
+                    scale: [0.3,1],
+                    opacity: [0,1],
+                    translateZ: 0,
+                    easing: "easeOutExpo",
+                    duration: 600,
+                    delay: function(el, i) {
+                        return 70 * (i+1)
+                    }
+                }).add({
+                targets: '.ml1 .line',
+                scaleX: [0,1],
+                opacity: [0.5,1],
+                easing: "easeOutExpo",
+                duration: 700,
+                offset: '-=875',
+                delay: function(el, i, l) {
+                    return 80 * (l - i);
+                }
+            });
 		} else {
 			
 		}
 	}
-	document.onscroll = scroll;*/
+	document.onscroll = scroll;
 	var $scrollDownArrow = $('#scrollDownArrow');
 	var animateScrollDownArrow = function() {
 		$scrollDownArrow.animate( {
