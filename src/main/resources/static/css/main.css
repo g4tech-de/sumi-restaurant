@@ -139,7 +139,7 @@ section::before,section::after {
 }
 
 #header .bottom a:hover {
-    opacity: 50%;
+    opacity: 80;
 }
 
 .navbar-nav>li:nth-child(3) {
@@ -480,7 +480,7 @@ section::before,section::after {
     top:-5px;
 }
 .top a:hover {
-    opacity: 50%;
+    opacity: 80;
 }
 .navbar-nav>li:nth-child(3) {
     margin-right: 110px;
