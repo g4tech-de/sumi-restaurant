@@ -1,179 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c91089a6-3566-4423-91dc-a12f75d6f22f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sumi/restaurant/EmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sumi/restaurant/EmailController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/chefs/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/chefs/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/chefs/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/sumi/border-bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/sumi/wave-bottom.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/sumi/border-top.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/img/sumi/wave-top.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sumi/restaurant/EmailController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sumi/restaurant/EmailController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/chefs/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/chefs/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/chefs/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/sumi/border-bottom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/.heroku-deploy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/Procfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/system.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/com/sumi/restaurant/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/com/sumi/restaurant/EmailController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/com/sumi/restaurant/RestaurantApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/com/sumi/restaurant/RestaurantErrorController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/css/global.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/css/text-animation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/fonts/aaargh.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/fonts/scarllet.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/chefs/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/chefs/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/chefs/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/dish/dish1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/dish/dish2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/dish/dish3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/dish/dish4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/menu/beer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/menu/cocktails.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/menu/deserts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/menu/hot-drinks.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/menu/ice-drinks.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/menu/smoothies.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/menu/sprites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/menu/thumb-cocktails.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/menu/wine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/parallax1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/parallax2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/parallax3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/restaurant-parallax.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/sumi/Sumi-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/sumi/border-bottom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/sumi/chef.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/sumi/impressum.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/sumi/law.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/sumi/location.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/sumi/mail.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/sumi/service.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/img/sumi/success.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/js/global.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/js/jquery-2.1.3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/js/jquery-3.3.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/js/jquery.actual.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/js/jquery.scrollTo.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/js/text-animation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/js/vendor/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/js/vendor/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/js/vendor/jquery-1.11.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/static/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/error-400.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/error-403.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/error-404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/error-500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/error-503.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/fragments/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/fragments/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/fragments/navbar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/classes/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/activation-1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/attoparser-2.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/batik-anim-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/batik-awt-util-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/batik-css-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/batik-dom-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/batik-ext-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/batik-parser-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/batik-svg-dom-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/batik-util-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/batik-xml-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/classmate-1.3.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/commons-io-2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/hibernate-validator-6.0.10.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/jackson-annotations-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/jackson-core-2.9.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/jackson-databind-2.9.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/jackson-datatype-jdk8-2.9.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/jackson-datatype-jsr310-2.9.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/jackson-module-parameter-names-2.9.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/javax.annotation-api-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/javax.mail-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/json-20180130.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/jul-to-slf4j-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/log4j-api-2.10.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/log4j-to-slf4j-2.10.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/logback-classic-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/logback-core-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/slf4j-api-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/snakeyaml-1.19.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/spring-aop-5.0.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/spring-beans-5.0.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/spring-boot-2.0.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/spring-boot-autoconfigure-2.0.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/spring-boot-devtools-2.0.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/spring-boot-starter-2.0.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/spring-boot-starter-json-2.0.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/spring-boot-starter-logging-2.0.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/spring-boot-starter-mail-2.0.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/spring-boot-starter-thymeleaf-2.0.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/spring-boot-starter-tomcat-2.0.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/spring-boot-starter-web-2.0.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/spring-boot-starter-web-services-2.0.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/spring-context-5.0.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/spring-context-support-5.0.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/spring-core-5.0.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/spring-expression-5.0.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/spring-jcl-5.0.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/spring-oxm-5.0.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/spring-web-5.0.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/spring-webmvc-5.0.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/spring-ws-core-3.0.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/spring-xml-3.0.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/thymeleaf-3.0.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/thymeleaf-extras-java8time-3.0.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/thymeleaf-spring5-3.0.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/tomcat-embed-core-8.5.31.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/tomcat-embed-el-8.5.31.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/tomcat-embed-websocket-8.5.31.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/unbescape-1.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/validation-api-2.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/xalan-2.6.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/xml-apis-1.4.01.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/dependency/xml-apis-ext-1.3.04.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/mvn-dependency-list.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/restaurant-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/restaurant-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/app/target/test-classes/com/sumi/restaurant/RestaurantApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/heroku/build.tgz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/restaurant-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/restaurant-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/restaurant-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/restaurant-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-    </list>
+    <list default="true" id="c91089a6-3566-4423-91dc-a12f75d6f22f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -205,23 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-735">
               <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmailController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sumi/restaurant/EmailController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -277,7 +93,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/header.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
@@ -506,17 +322,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="restaurant" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="restaurant" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -636,12 +441,12 @@
       <workItem from="1532167313461" duration="2881000" />
       <workItem from="1532444830904" duration="41916000" />
       <workItem from="1532609769383" duration="1027000" />
-      <workItem from="1532611000698" duration="1161000" />
+      <workItem from="1532611000698" duration="1420000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57089000" />
+    <option name="totallyTimeSpent" value="57348000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -664,10 +469,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43398267" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43398267" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -688,20 +493,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="91" selection-start-line="56" selection-start-column="91" selection-end-line="56" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sumi/restaurant/EmailController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -780,6 +571,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -897,6 +691,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -946,6 +743,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1035,13 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/static/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-918" />
@@ -1075,6 +868,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/img/sumi/wave-top.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/img/sumi/wave-bottom.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -1094,9 +900,9 @@
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />
+    <option value="clean" />
     <option value="clean heroku:deploy -DskipTests" />
     <option value="clean tomcat7:run-war -DskipTests" />
-    <option value="clean" />
     <option value="clean heroku:deploy-war -DskipTests" />
   </component>
 </project>
