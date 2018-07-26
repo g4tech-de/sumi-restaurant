@@ -130,14 +130,10 @@ section::before,section::after {
     position:absolute;
     height: 60px;
     bottom:0px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 150px 100%;
-    background-image: url("../img/sumi/wave-top.png");
 }
 #header .bottom a {
     font-size:36px;
-    color:black;
+    color:white;
     position:relative;
     top:-5px;
 }
@@ -476,14 +472,10 @@ section::before,section::after {
     position:absolute;
     height: 60px;
     bottom:0px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 150px 100%;
-    background-image: url("../img/sumi/wave-top.png");
 }
 .top a {
     font-size:36px;
-    color:black;
+    color:white;
     position:relative;
     top:-5px;
 }
