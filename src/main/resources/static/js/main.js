@@ -54,32 +54,13 @@ $(document).ready(function() {
 	});
 	
 	function scroll() {
-		if (($('.m11').position().top - $(window).scrollTop()) == window.innerHeight*0.8) {
-		    console.log($('#facts').position().top + " " + $(window).scrollTop() + " " + window.innerHeight);
-            anime.timeline({loop: false})
-                .add({
-                    targets: '.ml1 .letter',
-                    scale: [0.3,1],
-                    opacity: [0,1],
-                    translateZ: 0,
-                    easing: "easeOutExpo",
-                    duration: 600,
-                    delay: function(el, i) {
-                        return 70 * (i+1)
-                    }
-                }).add({
-                targets: '.ml1 .line',
-                scaleX: [0,1],
-                opacity: [0.5,1],
-                easing: "easeOutExpo",
-                duration: 700,
-                offset: '-=875',
-                delay: function(el, i, l) {
-                    return 80 * (l - i);
-                }
-            });
-		} else {
-			
+	    var top = $(window).scrollTop();
+	    var heightMin = window.innerHeight*0.75;
+	    var heightMax = window.innerHeight*0.8;
+	    var heightEnd = window.innerHeight*0.2;
+	    var drinkMenu = $('#facts').position().top;
+		if ((drinkMenu - top) < heightMax && (drinkMenu - top) > heightMin) {
+
 		}
 	}
 	document.onscroll = scroll;

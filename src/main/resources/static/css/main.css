@@ -174,7 +174,7 @@ section::before,section::after {
     color:white;
 }
 .navbar-inverse .navbar-nav>li>a:hover,.navbar-inverse .navbar-nav>.active>a {
-    background:#363838;
+    background:#a0a0a0;
     color:white;
     text-shadow:none;
 }
