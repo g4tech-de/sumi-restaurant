@@ -27,7 +27,6 @@ body {
     font-family: 'Cabin', sans-serif;
     -webkit-font-smoothing:antialiased;
     -webkit-text-size-adjust:100%;
-    height: 100%;
 }
 img {
     max-height:100%;
@@ -253,7 +252,7 @@ section::before,section::after {
     -moz-background-size:cover;
     -o-background-size:cover;
     background-size:cover;
-    z-index: -1;
+    z-index: -100;
 }
 
 #food-background{
@@ -266,7 +265,7 @@ section::before,section::after {
     -moz-background-size:cover;
     -o-background-size:cover;
     background-size:cover;
-    z-index: -2;
+    z-index: -100;
 }
 
 #chef-background{
@@ -279,7 +278,7 @@ section::before,section::after {
     -moz-background-size:cover;
     -o-background-size:cover;
     background-size:cover;
-    z-index: -3;
+    z-index: -100;
 }
 
 .parallax .inner {
@@ -508,6 +507,7 @@ section::before,section::after {
 
 .top {
     color:white;
+    z-index: 100;
 }
 
 .top {
