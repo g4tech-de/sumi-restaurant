@@ -129,7 +129,7 @@ $(window).bind('scroll',function(e){
 
 function parallaxScroll(){
     var top = $(window).scrollTop();
-    var scrolled = (0 - $(window).height()*0.2)+'px';
+    var scrolled = (0 - $(window).height()*0.1)+'px';
     if (top < $('#food-menu').position().top) {
         $('#fact-background').css('top',scrolled);
         $('#food-background').css('top','-5000px');

@@ -27,6 +27,7 @@ body {
     font-family: 'Cabin', sans-serif;
     -webkit-font-smoothing:antialiased;
     -webkit-text-size-adjust:100%;
+    z-index: -1;
 }
 img {
     max-height:100%;
@@ -181,6 +182,7 @@ section::before,section::after {
 ========================================================================== */
 .light-wrapper {
     background:#fbfbfb;
+    z-index: 100;
 }
 .inner {
     padding-top:100px;
@@ -243,7 +245,7 @@ section::before,section::after {
 }
 
 #fact-background{
-    height: 150%;
+    height: 120%;
     width: 100%;
     top: 0px;
     position: fixed;
@@ -256,7 +258,7 @@ section::before,section::after {
 }
 
 #food-background{
-    height: 150%;
+    height: 120%;
     width: 100%;
     top: 0px;
     position: fixed;
@@ -269,7 +271,7 @@ section::before,section::after {
 }
 
 #chef-background{
-    height: 150%;
+    height: 120%;
     width: 100%;
     top: 0px;
     position: fixed;
@@ -513,15 +515,16 @@ section::before,section::after {
 .top {
     text-align:center;
     width:100%;
-    position:absolute;
+    position:relative;
     height: 60px;
-    bottom:0px;
+    bottom:60px;
 }
 .top a {
     font-size:36px;
     color:white;
     position:relative;
     top:-5px;
+    z-index: 100;
 }
 .top a:hover {
     opacity: 80;
