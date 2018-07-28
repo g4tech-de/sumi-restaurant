@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="de"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="footer" th:fragment="footer">
+    <div id="feedback" name="food-menu" class="light-wrapper">
+        <section class="ss-style-top"></section>
+        <div class="container inner" style="margin-top: 0px">
+            <h2 class="section-title text-center" style="color: black;margin-top: 0px">Feedback</h2>
+            <br><br>
+            <div class="story" style="border-top: solid #c4c4c4 3px; width: 100%">
+                <div class='rating-stars text-center' style="margin: 3%">
+                    <ul id='stars'>
+                        <li class='star' title='Poor' data-value='1'>
+                            <i class='fa fa-star'></i>
+                        </li>
+                        <li class='star' title='Fair' data-value='2'>
+                            <i class='fa fa-star'></i>
+                        </li>
+                        <li class='star' title='Good' data-value='3'>
+                            <i class='fa fa-star'></i>
+                        </li>
+                        <li class='star' title='Excellent' data-value='4'>
+                            <i class='fa fa-star'></i>
+                        </li>
+                        <li class='star' title='WOW!!!' data-value='5'>
+                            <i class='fa fa-star'></i>
+                        </li>
+                    </ul>
+                </div>
+
+                <form action="/send/mail" method="post">
+                    <input style="display: none" type="text" name="rate_star" id="rate_star">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label class="pull-left">Name:</label>
+                                <input class="form-control" type="text" name="rate_name" id="rate_name" placeholder="Name"/>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label class="pull-left">Titel:</label>
+                                <input class="form-control" type="text" name="rate_title" id="rate_title" placeholder="Titel"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="pull-left">Feedback:</label>
+                        <td><textarea class="form-control" rows="10" id="rate_message" placeholder="Feedback" onkeyup="checkMessage()"></textarea></td>
+                    </div>
+                </form>
+
+                <button type="button" class="btn pull-left" onclick="senMail()" style="width: 100px; height: 40px; background-color: black; color: white">
+                    Senden
+                </button>
+            </div>
+            <br><br><br>
+            <div class="text-center story" style="border-top: solid #c4c4c4 3px; width: 100%">
+                <br><br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2661.860297819639!2d11.53923521592143!3d48.151498479224564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e760e279b250d%3A0x121f3c3eb256392e!2sAlfonsstra%C3%9Fe+3%2C+80636+M%C3%BCnchen!5e0!3m2!1svi!2sde!4v1532219972932"
+                        width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen>Bitten Sie auf LOCATION Symbol clicken für mehrere Information!</iframe>
+            </div>
+            <!-- /feedback -->
+        </div>
+        <!-- /.container -->
+    </div><!-- #map -->
+
+    <footer id="contact" class="dark-wrapper">
+        <!--<section class="ss-style-top"></section>-->
+        <div class="container inner">
+            <div class="row">
+                <div class="col-sm-4 pull-left" style="font-size: 1.4rem">
+                    <div>
+                        <a href="https://goo.gl/maps/YqpK9jkDExE2" target="_blank" margin="20px">
+                            <img src="img/sumi/location.png" style="float: left; width: 6%; height: 6%">
+                        </a>
+                        <h2>&nbsp LOCATION</h2>
+                    </div>
+                    <p>Alfonsstrasse 3</p>
+                    <p>München 80636</p>
+                </div>
+                <div class="col-sm-4 pull-left" style="font-size: 1.4rem">
+                    <h2>ÖFFNUNGSZEITEN</h2>
+                    <p>Frühstück</p>
+                    <p>Montag bis Freitag: 7:30 - 11:30</p>
+                    <p>Samstag & Sonntag: 8:00 - 9:00</p>
+                    <p>Mittagessen</p>
+                    <p>Montag bis Freitag: 12:00 - 17:00</p>
+                    <p>Abendessen</p>
+                    <p>Montag bis Freitag: 18:00 - 1:00</p>
+                    <p>Sonntag: 17:30 - 24:00</p>
+                </div>
+                <div class="col-sm-4 pull-left">
+                    <div class="social-bar">
+                        <!--<a href="#" class="fa fa-instagram tooltipped" title=""></a>
+                        <a href="#" class="fa fa-youtube-square tooltipped" title=""></a>-->
+                        <a id="fb-web" href="https://www.facebook.com/Sumi-Restaurant-1371565426321847/" target="_blank"
+                           class="fa fa-facebook-square tooltipped" title=""></a>
+                        <a id="fb-app" href="fb://profile/1371565426321847"
+                           class="fa fa-facebook-square tooltipped" title=""></a>
+                        <!--<a href="#" class="fa fa-pinterest-square tooltipped" title=""></a>
+                        <a href="#" class="fa fa-google-plus-square tooltipped" title=""></a>-->
+                    </div>
+                    <div>
+                        <a href="#" target="_blank" margin="20px">
+                            <img src="img/sumi/impressum.png" style="float: left; width: 8%; height: 8%">
+                        </a>
+                        <h3>&nbsp IMPRESSUM</h3>
+                    </div>
+                    <div>
+                        <a href="#" target="_blank" margin="20px">
+                            <img src="img/sumi/law.png" style="float: left; width: 8%; height: 8%">
+                        </a>
+                        <h3>&nbsp DATENSCHUTZ</h3>
+                    </div>
+                    <div>
+                        <a href="#" target="_blank" margin="20px">
+                            <img src="img/sumi/mail.png" style="float: left; width: 8%; height: 8%">
+                        </a>
+                        <h3>&nbsp KONTAKT</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/jquery.actual.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="js/text-animation.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/global.js"></script>
+    <script src="js/main.js"></script>
+</div>
+</body>
+</html>
